@@ -1,0 +1,7 @@
+65% of students surveyed across 74,350 students at 91 institutions reported that they lacked awareness of available support resources.
+Among students experiencing basic-needs insecurity, 48% did not use the campus supports covered in the survey.
+41% experienced food insecurity and 48% experienced housing insecurity in the same survey.
+These unmet needs can contribute to financial stress, academic difficulties, mental-health challenges, and stopping out of college.
+The problem: Resources already exist across universities, nonprofits, 211 CT, event platforms, and community organizations, but information is fragmented and difficult for students to discover. The hackathon challenge specifically identifies this issue for CT students.
+Our solution: A student-first AI resource navigator that lets students simply describe what they need—e.g., “I'm short on money and want to meet people this weekend”—and connects them to relevant food, health, education, events, sports, career, and community resources in one place.
+Beyond discovery: By connecting students to events, clubs, sports, and community activities—not just services—the app can help turn resource discovery into participation and social connection.
