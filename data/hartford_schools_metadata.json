@@ -1,0 +1,29 @@
+{
+  "dataset": "Hartford area school directory",
+  "scope": "Selected school options listed in Hartford Public Schools' 2026-27 guide, plus A.I. Prince Technical High School. Out-of-city entries in the HPS guide are excluded.",
+  "purpose": "Searchable school contact directory for connecting students and families to their school and its student-life supports.",
+  "last_reviewed": "2026-09-30",
+  "records_file": "hartford_schools.json",
+  "csv_file": "hartford_schools.csv",
+  "sources": [
+    {
+      "name": "Hartford Public Schools 2026-27 School Choice Guide",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/3630/Hps/0486a2da-8b5e-4d11-a917-c5089bb5db88/HPS_SSG_SY2026-2027.pdf?disposition=inline",
+      "used_for": "School names, grades, school type, address, phone, and district student/family services."
+    },
+    {
+      "name": "Connecticut Technical Education and Career System: Schools",
+      "url": "https://www.cttech.org/schools/",
+      "used_for": "A.I. Prince Technical High School location and contact details."
+    },
+    {
+      "name": "EdSight Find Schools and Districts",
+      "url": "https://public-edsight.ct.gov/overview/find-schools",
+      "used_for": "Official live entry point for the state school directory and exportable EdSight reports."
+    }
+  ],
+  "limitations": [
+    "This is a curated school directory, not a complete census of every public, private, and magnet school in Hartford and not a download of EdSight performance reports.",
+    "The Hartford Public Schools guide notes that school information can change; confirm current details with the school or district."
+  ]
+}

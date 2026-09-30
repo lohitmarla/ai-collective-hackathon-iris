@@ -1,0 +1,53 @@
+{
+  "dataset": "Hartford public events",
+  "file": "hartford_events.json",
+  "spreadsheet_file": "hartford_events.csv",
+  "purpose": "A searchable, interest-tagged snapshot of upcoming public Hartford events, with an append-only archive of previously collected event records.",
+  "initial_collection_date": "2026-09-30",
+  "collection_window_days": 365,
+  "refresh_command": "python scripts/refresh_hartford_events.py",
+  "feeds_collected": [
+    {
+      "name": "Hartford Public Library",
+      "url": "https://programs.hplct.org/events",
+      "method": "Public library events feed",
+      "coverage": "Library branch programs, with event dates, locations, event tags, audience and registration details where available."
+    },
+    {
+      "name": "Hartford.com",
+      "url": "https://hartford.com/events/",
+      "method": "Public event-card listing",
+      "coverage": "Selected current downtown and citywide event listings. Click through for details and cost."
+    },
+    {
+      "name": "Eventbrite Hartford search",
+      "url": "https://www.eventbrite.com/d/ct--hartford/events/",
+      "method": "Public structured event listings",
+      "coverage": "Hartford-located public listings returned by the search page at refresh time. This is not the complete Eventbrite catalog."
+    }
+  ],
+  "additional_live_calendars": [
+    {
+      "name": "City of Hartford events",
+      "url": "https://www.hartfordct.gov/Events-directory",
+      "coverage": "Live city calendar with a Free filter; linked in the app for events not collected into the snapshot."
+    }
+  ],
+  "interest_tags": [
+    "Food & Restaurants",
+    "Sports & Games",
+    "Music & Nightlife",
+    "Arts & Culture",
+    "Health & Wellness",
+    "Family & Kids",
+    "Learning & Careers",
+    "Community & Volunteering",
+    "Outdoors & Nature",
+    "Other & General"
+  ],
+  "limitations": [
+    "No single feed covers every Hartford event. Listings may be missing, duplicated across sources, cancelled, or changed after collection.",
+    "Refresh is append-only: records are retained. Events no longer present in a refreshed source and past events are marked archived instead of deleted.",
+    "Confirm event date, cost, registration, accessibility, and age requirements with the organizer before attending."
+  ]
+}
