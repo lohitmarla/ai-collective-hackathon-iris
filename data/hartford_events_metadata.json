@@ -24,6 +24,24 @@
       "url": "https://www.eventbrite.com/d/ct--hartford/events/",
       "method": "Public structured event listings",
       "coverage": "Hartford-located public listings returned by the search page at refresh time. This is not the complete Eventbrite catalog."
+    },
+    {
+      "name": "Google Developer events",
+      "url": "https://developers.google.com/community/devfest",
+      "method": "Public Google Developer Groups DevFest directory checked for Hartford-located structured event listings.",
+      "coverage": "Google-backed developer and AI events with Hartford as a stated event location."
+    },
+    {
+      "name": "Major League Hacking",
+      "url": "https://www.mlh.com/seasons/2026/events",
+      "method": "Public MLH season schedule checked for Hartford-located structured event listings.",
+      "coverage": "MLH hackathons and developer events with Hartford as a stated event location."
+    },
+    {
+      "name": "Launc[H] Hartford Innovation & Tech Hub",
+      "url": "https://www.launchinhartford.com/events",
+      "method": "Public Launc[H] event calendar checked for Hartford-located structured event listings.",
+      "coverage": "Hartford innovation, startup, technology, InsurTech, MedTech, and entrepreneurship events."
     }
   ],
   "additional_live_calendars": [
@@ -49,5 +67,7 @@
     "No single feed covers every Hartford event. Listings may be missing, duplicated across sources, cancelled, or changed after collection.",
     "Refresh is append-only: records are retained. Events no longer present in a refreshed source and past events are marked archived instead of deleted.",
     "Confirm event date, cost, registration, accessibility, and age requirements with the organizer before attending."
-  ]
+  ],
+  "grouped_file": "hartford_events_by_type.json",
+  "grouping_method": "Events are grouped by their interests. An event with multiple interests appears in each matching group; the canonical event file retains one record per event."
 }
