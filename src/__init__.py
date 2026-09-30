@@ -1,0 +1,1 @@
+"""StudentConnect CT application modules."""

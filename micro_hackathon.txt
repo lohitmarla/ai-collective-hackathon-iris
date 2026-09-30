@@ -1,0 +1,101 @@
+I'm participating in an hackathon and I need your help 
+
+
+
+this is the challenge that I'm going to work on "Challenge 3: Student Life Beyond the Classroom
+
+Theme: Human connection / Student Life
+
+College and high school students in CT often don't know what's available to them locally: mental health resources, free events, tutoring, internships, food assistance on campus.
+
+Teams build a tool aggregating public resources for a specific student population (e.g., UConn Hartford, or CT high schoolers generally) into one searchable or conversational interface.
+
+Data sources: University public resource pages, 211 CT, local nonprofit event listings (Luma, Eventbrite public pages), https://public-edsight.ct.gov 
+
+6-hour feasibility: Scope to one campus or school district; manually curate a starter dataset rather than scraping broadly
+
+AI angle: Conversational resource-finder ("I'm stressed about money, what's available to me"), auto-categorization of scattered resources"
+
+
+
+
+
+10:30 AM-4:00 PM
+
+Active hacking and mentorship
+
+AI Tools and Resources 
+1. AI Assistants (Claim Individually)
+2. Coding Assistants
+3. GitHub Student Developer Pack
+4. Cloud Credits
+
+1. AI Assistants (Claim Individually)
+Tool
+What you get
+How to claim
+Google Gemini (AI Pro)
+1 year free for US students ($19.99/mo value) — 4x usage limits, 5TB storage, Gemini Spark agent, Gemini Omni
+gemini.google.com/students — personal Google account, must claim by Dec 31, 2026
+ChatGPT Plus
+4 free monthly billing periods (Back-to-School offer)
+chatgpt.com/students with .edu email — claim by Oct 31, 2026
+Claude
+No individual student discount exists. Free tier (Projects, Artifacts) is the baseline. ~$50 API credits available via Anthropic's Student Builders program (application required)
+Free tier: no signup needed. Student Builders: apply directly with Anthrop
+
+
+2. Coding Assistants
+Tool
+What you get
+Notes
+GitHub Copilot
+Free tier: 2,000 completions/month, no card required
+New student Pro signups paused since April 2026 (compute demand) — anyone not already verified gets Copilot Free
+Cursor
+Free Hobby plan (Composer + limited agent requests) for everyone
+Free 12-month Pro-for-students program ended June 25, 2026. Grad students/researchers/educators can still request credits directly via Cursor's form
+JetBrains AI Assistant
+IDEs (IntelliJ Ultimate, PyCharm Pro, WebStorm, etc.) free via Student Pack, renew annually
+AI Assistant itself: free tier capped at 3 credits/month + unlimited Mellum code completions
+Kiro (AWS)
+Free tier: 50 credits/month, no card required, includes Claude Sonnet 4.5. Students at 132 participating universities (18 countries): 1,000 credits/month free for 1 year
+Spec-driven agentic IDE — writes requirements/design docs before code, built on Code OSS, includes CLI. Student verification via SheerID + university email at kiro.dev/students — check if your school is on the list before assuming eligibility
+Claude Code
+No dedicated student discount. Access tiers: Free (limited), Pro $20/mo, Max $100–$200/mo (5x–20x usage), or pay-as-you-go API
+Agentic coding tool that runs in the terminal, not an IDE plugin — good fit for students already comfortable with a CLI. Same "no individual student price" situation as Claude's chat product — see note in Section 1
+OpenAI Codex (CLI)
+Bundled into every ChatGPT plan including Free — works today with just a ChatGPT sign-in. Plus ($20/mo) unlocks it across web, CLI, IDE extension, and iOS with higher limits
+No separate student pricing, but the Free tier is genuinely usable for light tasks. Billing moved to token-based credits in April 2026
+
+
+3. GitHub Student Developer Pack
+The single best starting point — apply with a .edu email, unlocks most of what's below.
+$700+ value, free while enrolled
+Includes: GitHub Pro, JetBrains suite, Azure credits, MongoDB Atlas credits, domain registration, and dozens of partner tools
+Apply: education.github.com/pack
+4. Cloud Credits
+Provider
+What you get
+Notes
+AWS Educate
+Up to $100 in credits, 12 months, renewable while enrolled
+Amount may be lower if your school isn't an AWS Educate institutional member — check individually
+AWS Free Tier
+$200 in usage credits over first 6 months, plus permanent "always free" services (Lambda, DynamoDB, CloudWatch limits) that never expire
+Separate from AWS Educate — new accounts get this automatically
+Azure for Students
+$100 credit, 12 months, no credit card required, renewable annually
+Verify with .edu email at azure.microsoft.com/free/students
+Google Cloud Free Trial
+$300 in credits, 90 days, plus access to the always-free tier on 20+ products
+Automatic for any new account (student or not) — no .edu required, at cloud.google.com/free
+Google Cloud for Education (Students)
+200 free Google Skills credits for hands-on labs/skill badges (expire 1 year after issuance). Additional GCP billing credits (often ~$50) available only if a faculty member has requested them for a specific course
+Skills credits: self-serve at cloud.google.com/edu/students. Billing credits: instructor-initiated, not something a student can request alone — ask your professor if the course has this set up
+
+
+
+
+
+
